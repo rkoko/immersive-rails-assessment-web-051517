@@ -1,0 +1,5 @@
+<h1>Appearance show page</h1>
+<p>Episode: <%= link_to @appearance.episode.id, episode_path(@appearance.episode)%> </p>
+<p>Guest: <%= @appearance.guest.name %> </p>
+<p>Guest occupation: <%= @appearance.guest.occupation %> </p>
+<p>Rating: <%= @appearance.rating %> </p>

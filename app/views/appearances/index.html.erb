@@ -1,0 +1,7 @@
+<h1>Appearances</h1>
+<% @appearances.each do |app|  %>
+<p>Episode number:<%= app.episode.number %></p>
+<li> Rating: <%= app.rating %></li>
+<li>Guest: <%= app.guest.name %></li>
+
+<% end  %>

@@ -1,0 +1,4 @@
+<h1> <%= "Episode #{@episode.id}'s guests: " %> </h1>
+<% @episode.guests.each do |guest|  %>
+<li> <%= link_to guest.name, guest_path(guest) %> </li>
+<% end %>
